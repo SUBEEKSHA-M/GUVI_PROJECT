@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Profile</h2>
+        <form id="profileForm">
+            <input type="email" id="email" name="email" readonly>
+            <input type="number" id="age" name="age" placeholder="Age">
+            <input type="date" id="dob" name="dob" placeholder="DOB">
+            <input type="text" id="contact" name="contact" placeholder="Contact">
+            <button type="submit">Update Profile</button>
+            <div class="message" id="profileMessage"></div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>

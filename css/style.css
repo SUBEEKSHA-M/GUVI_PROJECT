@@ -1,0 +1,99 @@
+/* ===== General Styles ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Container Styles ===== */
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Headings ===== */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* ===== Form Elements ===== */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+label {
+    font-weight: bold;
+    color: #555555;
+}
+
+/* ===== Buttons ===== */
+button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* ===== Links ===== */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* ===== Messages ===== */
+.success-message {
+    color: green;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* ===== Profile Page Specific ===== */
+.profile-info {
+    margin-bottom: 15px;
+}
+
+.profile-info span {
+    font-weight: bold;
+    color: #333333;
+}
+
+input[type="number"],
+input[type="date"] {
+    margin-bottom: 20px;
+}
