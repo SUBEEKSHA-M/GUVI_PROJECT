@@ -6,6 +6,15 @@ body {
     padding: 0;
 }
 
+/* ===== Index Page Centering ===== */
+body.index-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
 /* ===== Container Styles ===== */
 .container {
     width: 400px;
@@ -14,6 +23,7 @@ body {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 /* ===== Headings ===== */
@@ -34,8 +44,8 @@ input[type="date"] {
     margin: 8px 0 15px 0;
     border: 1px solid #cccccc;
     border-radius: 5px;
-    box-sizing: border-box;
     font-size: 14px;
+    box-sizing: border-box;
 }
 
 label {
@@ -57,6 +67,25 @@ button {
 }
 
 button:hover {
+    background-color: #0056b3;
+}
+
+/* ===== Small Custom Buttons ===== */
+.custom-btn {
+    display: inline-block !important;
+    width: 120px !important;
+    padding: 10px !important;
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
     background-color: #0056b3;
 }
 
@@ -83,7 +112,7 @@ a:hover {
     text-align: center;
 }
 
-/* ===== Profile Page Specific ===== */
+/* ===== Profile Page ===== */
 .profile-info {
     margin-bottom: 15px;
 }
@@ -97,3 +126,4 @@ input[type="number"],
 input[type="date"] {
     margin-bottom: 20px;
 }
+
